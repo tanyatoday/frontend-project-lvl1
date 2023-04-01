@@ -1,17 +1,17 @@
 import game from '../index.js';
-import getRandomInt from '../getRandomInt.js';
+import getRandomNum from '../getRandomNum.js';
 
 // задание
 const description = 'What is the result of the expression?';
 
 const calcGame = () => {
   const task = () => {
-    const num1 = getRandomInt(50);
-    const num2 = getRandomInt(50);
+    const num1 = getRandomNum(50);
+    const num2 = getRandomNum(50);
 
     // математические символы
     const operators = ['+', '-', '*'];
-    const operator = operators[getRandomInt(2)];
+    const operator = operators[getRandomNum(2)];
 
     // вопрос
     const question = `${num1} ${operator} ${num2}`;
