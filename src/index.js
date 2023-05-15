@@ -25,9 +25,7 @@ const game = (description, runGame) => {
     if (yourAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
-      console.log(
-        `'${yourAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
-      );
+      console.log(`'${yourAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${userName}!`);
       return;
     }
