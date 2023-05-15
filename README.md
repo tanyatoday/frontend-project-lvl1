@@ -2,9 +2,11 @@
 
 [![Actions Status](https://github.com/tanyatoday/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/tanyatoday/frontend-project-lvl1/actions) <a href="https://codeclimate.com/github/tanyatoday/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/acfe57d743d1fd1b034f/maintainability" /></a>
 
-<h3> <b>«Игры разума»</b> </h3> — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
+## «Игры разума»
 
-## Installation
+Набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
+
+## Установка
 
 ```sh
 $ make install
@@ -22,7 +24,9 @@ $ brain-even
 
 <a href="https://asciinema.org/a/MYN2LR0QIplmOi7ZlE57hhAk9" target="_blank"><img src="https://asciinema.org/a/MYN2LR0QIplmOi7ZlE57hhAk9.svg" /></a>
 
-## Калькулятор. Арифметические выражения, которые необходимо вычислить.
+## Калькулятор.
+
+Арифметические выражения, которые необходимо вычислить.
 
 ```sh
 $ brain-calc
@@ -38,7 +42,9 @@ $ brain-gcd
 
 <a href="https://asciinema.org/a/Zwt0meh33A5R33e3rWkTermqg" target="_blank"><img src="https://asciinema.org/a/Zwt0meh33A5R33e3rWkTermqg.svg" /></a>
 
-## Прогрессия. Поиск пропущенных чисел в последовательности чисел.
+## Прогрессия.
+
+Поиск пропущенных чисел в последовательности чисел.
 
 ```sh
 $ brain-progression
