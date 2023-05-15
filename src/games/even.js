@@ -5,7 +5,7 @@ import getRandomNum from '../getRandomNum.js';
 const isEven = (num) => num % 2 === 0;
 
 // задание
-const description = 'Answer "yes" if number is even, otherwise answer "no".';
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 // игра
 const evenGame = () => {
