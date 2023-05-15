@@ -14,13 +14,33 @@ $ brain-even
 <a href="https://asciinema.org/a/MYN2LR0QIplmOi7ZlE57hhAk9" target="_blank"><img src="https://asciinema.org/a/MYN2LR0QIplmOi7ZlE57hhAk9.svg" /></a>
 
 <b>Калькулятор. Арифметические выражения, которые необходимо вычислить.</b>
+
+```sh
+$ brain-calc
+```
+
 <a href="https://asciinema.org/a/8BeaGdgHIGk9lX5zjGzh6gdhj" target="_blank"><img src="https://asciinema.org/a/8BeaGdgHIGk9lX5zjGzh6gdhj.svg" /></a>
 
 <b>Определение наибольшего общего делителя.</b>
+
+```sh
+$ brain-gcd
+```
+
 <a href="https://asciinema.org/a/Zwt0meh33A5R33e3rWkTermqg" target="_blank"><img src="https://asciinema.org/a/Zwt0meh33A5R33e3rWkTermqg.svg" /></a>
 
 <b>Прогрессия. Поиск пропущенных чисел в последовательности чисел.</b>
+
+```sh
+$ brain-progression
+```
+
 <a href="https://asciinema.org/a/gjyijN8gN0zgq7Bd633x8qwXK" target="_blank"><img src="https://asciinema.org/a/gjyijN8gN0zgq7Bd633x8qwXK.svg" /></a>
 
 <b>Определение простого числа.</b>
+
+```sh
+$ brain-prime
+```
+
 <a href="https://asciinema.org/a/KIgYAATHEGpGSgdS9paXcP1FQ" target="_blank"><img src="https://asciinema.org/a/KIgYAATHEGpGSgdS9paXcP1FQ.svg" /></a>
