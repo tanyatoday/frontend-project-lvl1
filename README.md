@@ -16,7 +16,9 @@ $ make publish
 
 Игры:
 
-## Определение четного числа.
+## Игра: "Проверка на чётность"
+
+Определение четного числа.
 
 ```sh
 $ brain-even
@@ -24,7 +26,7 @@ $ brain-even
 
 <a href="https://asciinema.org/a/MYN2LR0QIplmOi7ZlE57hhAk9" target="_blank"><img src="https://asciinema.org/a/MYN2LR0QIplmOi7ZlE57hhAk9.svg" /></a>
 
-## Калькулятор.
+## Игра: "Калькулятор"
 
 Арифметические выражения, которые необходимо вычислить.
 
@@ -34,7 +36,9 @@ $ brain-calc
 
 <a href="https://asciinema.org/a/8BeaGdgHIGk9lX5zjGzh6gdhj" target="_blank"><img src="https://asciinema.org/a/8BeaGdgHIGk9lX5zjGzh6gdhj.svg" /></a>
 
-## Определение наибольшего общего делителя.
+## Игра "НОД"
+
+Определение наибольшего общего делителя.
 
 ```sh
 $ brain-gcd
@@ -42,7 +46,7 @@ $ brain-gcd
 
 <a href="https://asciinema.org/a/Zwt0meh33A5R33e3rWkTermqg" target="_blank"><img src="https://asciinema.org/a/Zwt0meh33A5R33e3rWkTermqg.svg" /></a>
 
-## Прогрессия.
+## Игра "Арифметическая прогрессия"
 
 Поиск пропущенных чисел в последовательности чисел.
 
@@ -52,7 +56,9 @@ $ brain-progression
 
 <a href="https://asciinema.org/a/gjyijN8gN0zgq7Bd633x8qwXK" target="_blank"><img src="https://asciinema.org/a/gjyijN8gN0zgq7Bd633x8qwXK.svg" /></a>
 
-## Определение простого числа.
+## Игра "Простое ли число?"
+
+Определение простого числа.
 
 ```sh
 $ brain-prime
