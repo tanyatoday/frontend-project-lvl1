@@ -32,7 +32,6 @@ const calcGame = () => {
         result = null;
     }
     result = result.toString();
-
     return [question, result];
   };
   game(description, task);
