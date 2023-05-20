@@ -11,21 +11,21 @@ const game = (description, runGame) => {
 
   // цикл вопросов
   for (let i = 0; i < 3; i += 1) {
-    const question = runGame();
+    // const question = runGame();
+    const [question, correctAnswer] = runGame();
 
-    console.log(`Question: ${question[0]}`);
+    console.log(`Question: ${question}`);
 
     // ответ пользователя
     const yourAnswer = readlineSync.question('Your answer: ');
-
-    // правильный ответ
-    const correctAnswer = question[1];
 
     // сравнение ответов
     if (yourAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`'${yourAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(
+        `'${yourAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
+      );
       console.log(`Let's try again, ${userName}!`);
       return;
     }
