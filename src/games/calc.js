@@ -10,23 +10,23 @@ const operator = operators[getRandomNum(2)];
 
 const calcGame = () => {
   const task = () => {
-    const num1 = getRandomNum(50);
-    const num2 = getRandomNum(50);
+    const randomNum1 = getRandomNum(50);
+    const randomNum2 = getRandomNum(50);
 
     // вопрос
-    const question = `${num1} ${operator} ${num2}`;
+    const question = `${randomNum1} ${operator} ${randomNum2}`;
 
     // арифметические операции
     let result = 0;
     switch (operator) {
       case '+':
-        result = num1 + num2;
+        result = randomNum1 + randomNum2;
         break;
       case '-':
-        result = num1 - num2;
+        result = randomNum1 - randomNum2;
         break;
       case '*':
-        result = num1 * num2;
+        result = randomNum1 * randomNum2;
         break;
       default:
         result = null;
