@@ -5,22 +5,22 @@ import getRandomNum from '../getRandomNum.js';
 
 const description = 'What number is missing in the progression?';
 
+const getStep = () => {
+  const step1 = getRandomNum(10);
+
+  return step1 === 0 ? getStep() : step1;
+};
+
 const progressionGame = () => {
   const progression = () => {
     // массив для последовательности чисел
     const sequence = [];
-    const lastIndex = 9;
-    const getStep = () => {
-      const step1 = getRandomNum(10);
-
-      return step1 === 0 ? getStep() : step1;
-    };
 
     const step = getStep();
 
     const getStartNum = () => {
       const num = getRandomNum(100);
-      const limitNum = num + step * lastIndex;
+      const limitNum = num + step * sequence.length;
 
       if (limitNum > 100) {
         return getStartNum();
@@ -37,7 +37,7 @@ const progressionGame = () => {
       sequence.push(nextNum);
     }
 
-    const randomIndex = getRandomNum(lastIndex);
+    const randomIndex = getRandomNum(sequence.length);
     const replacedNum = sequence[randomIndex];
 
     let result = replacedNum;
