@@ -10,10 +10,9 @@ const description = 'Answer "yes" if the number is even, otherwise answer "no".'
 // игра
 const evenGame = () => {
   const taskEven = () => {
-    const randomNum = getRandomNum(100);
-    const question = `${randomNum}`;
-    const correctAnswer = isEven(randomNum) ? 'yes' : 'no';
-    return [question, correctAnswer];
+    const number = getRandomNum(100);
+    const correctAnswer = isEven(number) ? 'yes' : 'no';
+    return [`${number}`, correctAnswer];
   };
   game(description, taskEven);
 };
