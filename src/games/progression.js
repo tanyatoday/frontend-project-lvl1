@@ -11,31 +11,36 @@ const getStep = () => {
   return step1 === 0 ? getStep() : step1;
 };
 
+const getStartNum = () => {
+  const sequence = [];
+
+  const step = getStep();
+  const num = getRandomNum(100);
+  const limitNum = num + step * sequence.length;
+
+  if (limitNum > 100) {
+    return getStartNum();
+  }
+
+  return num;
+};
+
 const progressionGame = () => {
   const progression = () => {
-    // массив для последовательности чисел
     const sequence = [];
-
     const step = getStep();
-
-    const getStartNum = () => {
-      const num = getRandomNum(100);
-      const limitNum = num + step * sequence.length;
-
-      if (limitNum > 100) {
-        return getStartNum();
-      }
-
-      return num;
-    };
 
     // первое число последовательности
     const startNum = getStartNum();
 
     // вся последовательность
-    for (let i = 0, nextNum = startNum; i < 10; i += 1, nextNum += step) {
-      sequence.push(nextNum);
-    }
+    const sequenceGeneration = () => {
+      for (let i = 0, nextNum = startNum; i < 10; i += 1, nextNum += step) {
+        sequence.push(nextNum);
+      }
+    };
+
+    sequenceGeneration();
 
     const randomIndex = getRandomNum(sequence.length);
     const replacedNum = sequence[randomIndex];
