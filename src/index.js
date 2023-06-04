@@ -11,7 +11,6 @@ const game = (description, runGame) => {
 
   // цикл вопросов
   for (let i = 0; i < 3; i += 1) {
-    // const question = runGame();
     const [question, correctAnswer] = runGame();
 
     console.log(`Question: ${question}`);
@@ -23,7 +22,9 @@ const game = (description, runGame) => {
     if (yourAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`'${yourAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(
+        `'${yourAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`
+      );
       console.log(`Let's try again, ${userName}!`);
       return;
     }
